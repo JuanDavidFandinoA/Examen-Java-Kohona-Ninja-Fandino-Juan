@@ -4,7 +4,7 @@ Para la aldea ninja de Konoha se ha modernizdo su sistema de gestión de misione
 Especificaciones:
 
 Diagrama ER: 
-![Screenshot from 2024-12-13 09-31-47](https://github.com/user-attachments/assets/520a5c58-5a9b-4ffa-aea2-64ef6d2d4e5f)
+![Diagrama ER Kohana](https://github.com/user-attachments/assets/f2b5a991-857e-4178-b436-b97b9b9da691)
 
 
   Cree un diagrama de clases que refleje la estructura de clases necesaria para implementar la lógica de la aplicación. Incluya clases relevantes como Ninja, Mision, Habilidad, etc. Además, represente las relaciones entre estas clases.
