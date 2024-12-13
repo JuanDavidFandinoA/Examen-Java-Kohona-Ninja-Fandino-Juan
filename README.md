@@ -24,3 +24,41 @@ Diagrama ER:
 -Utiliza conexiones JDBC para acceder a la base de datos y aplique principios y patrones de diseño.
 - Cuenta con una interfaz por consola que permita a los usuarios interactuar de manera clara y amigable con la aplicación. Proporciona mensajes descriptivos y menús para guiar al usuario.
 Funcionalidad para guardar y cargar datos de las misiones completadas desde archivos de texto. Es decir, guarda en un archivo de texto las misiones completadas y cuenta con funcionalidad en el menú para consultar las misiones completadas desde el archivo de texto. Gestiona posibles errores y proporciona mensajes informativos.
+
+Diagrama de clases:
++-----------------+
+|      Ninja      |
++-----------------+
+| - id: int       |
+| - nombre: String|
+| - rango: String |
+| - aldea: String |
++-----------------+
+| + listarHabilidades() |
++-----------------+
+
++-----------------+
+|      Mision     |
++-----------------+
+| - id: int       |
+| - descripcion: String |
+| - rango: String |
+| - recompensa: double |
++-----------------+
+
++-----------------+
+|   MisionNinja   |
++-----------------+
+| - idNinja: int  |
+| - idMision: int  |
+| - fechaInicio: Date |
+| - fechaFin: Date |
++-----------------+
+
++-----------------+
+|    Habilidad    |
++-----------------+
+| - idNinja: int  |
+| - nombre: String |
+| - descripcion: String |
++-----------------+
